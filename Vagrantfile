@@ -53,7 +53,7 @@ Vagrant.configure("2") do |config|
     vb.name = "Souhil_System"
     vb.default_nic_type = "82543GC" 
     vb.memory = 512
-    vb.cpus = 2 
+    vb.cpus = 1 
     vb.linked_clone = true
    end
 
