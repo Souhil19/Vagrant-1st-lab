@@ -8,9 +8,11 @@ Creating Centos7 VM, provisioning ressources as we want, changing the name of VM
 **To Run:** type the following commands, after installing vagrant:
 
 #git clone https://github.com/Souhil19/Vagrant-1st-lab
+
 #vagrant up
 
 **To stop the running vagrant process:** type:
+
 #vagrant halt
 
 **PS ⚠️: If you're using windows as a guest OS, make sure to disable any kind of anti-viruses to permit of downloding Vagrant Boxes, 
