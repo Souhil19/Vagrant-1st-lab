@@ -7,7 +7,7 @@
 # you're doing.
 Vagrant.configure("2") do |config|
   config.vm.guest ="windows"
-  config.vm.provider= "virtualbox"
+  #config.vm.provider= "virtualbox"
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "centos/7"
@@ -56,6 +56,12 @@ Vagrant.configure("2") do |config|
     vb.cpus = 1 
     vb.linked_clone = true
    end
+
+   config.vm.provider "vmware_desktop" do |v|
+    v.vmx["memsize"] = "512"
+    v.vmx["numvcpus"] = "1"
+    v.linked_clone = false
+  end
 
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
