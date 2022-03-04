@@ -6,8 +6,10 @@ HashiCorp Vagrant provides the same, easy workflow regardless of your role as a 
 Creating Centos7 VM, provisioning ressources as we want, changing the name of VM, and other Configurations for virtualbox and vmware providers, and installing apache server, using ruby script, in automated way
 
 **To Run:** type the following commands, after installing vagrant:
+
 #git clone https://github.com/Souhil19/Vagrant-1st-lab
 #vagrant up
+
 **To stop the running vagrant process:** type:
 #vagrant halt
 
